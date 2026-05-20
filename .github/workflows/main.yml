@@ -29,4 +29,5 @@ jobs:
         with:
           artifacts: "app/build/outputs/apk/release/*.apk"
           token: ${{ secrets.GITHUB_TOKEN }}
-
+- name: Build and Publish release APK from your Android project
+  uses: Kang-Jacob-GitLB/action-release-apk@1.0.0
