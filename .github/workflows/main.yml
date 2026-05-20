@@ -23,7 +23,6 @@ jobs:
 
       - name: Build Release APK
         run: ./gradlew assembleRelease
-
       - name: Upload Release to GitHub
         uses: [ncipollo/release-action@v1](https://github.com)
         with:
